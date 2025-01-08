@@ -1,0 +1,223 @@
+body{
+    /* background-color: #0D0D0D; */
+   color: #f9f6f6;
+   overflow: hidden;
+}
+.nav-tab{
+    background-color: #0D0D0D;;
+}
+.logo{
+    width: 50px;
+}
+
+.svg-inline--fa {
+    cursor: pointer;
+}
+i{
+    cursor: pointer !important;
+}
+.side-nav-menu{
+    color: #212529 !important;
+    z-index: 99;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.meal:hover .meal-layer{
+    top:0 ;
+}
+.borderstyle{
+    border: 0;
+    border-bottom: 1px solid #818283;
+    border-radius: 0;
+}
+.contactstyle{
+    border: 0;
+    border-bottom: 2px solid #575757;
+    border-radius: 2;
+    box-shadow: 1px black;
+    box-shadow: 0px 5px 9px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+ul{
+    cursor: pointer;
+}
+.cursor-pointe{
+    cursor: pointer;
+}
+.alert{
+    width: fit-content;
+}
+.alertsize{
+    font-size: 13px !important;
+}
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+/*    loading icon     */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,700);
+/* Loader #1 by Sam Lillicrap https://www.samueljwebdesign.co.uk https://codepen.io/samueljweb/pen/LbGxi */
+
+.loading-screen h1 {
+	 font-family: 'Lato';
+	 color: white;
+	 text-transform: uppercase;
+	 font-size: 1em;
+	 letter-spacing: 1.5px;
+	 text-align: center;
+	 width: 155px;
+	 margin-top: 20px;
+	 -webkit-animation: fade 2s infinite;
+	 -moz-animation: fade 2s infinite;
+}
+ .bg-load {
+	 width: 180px;
+	 padding-top: 180px;
+	 margin: auto;
+	 vertical-align: middle;
+} 
+ .stick {
+	 width: 30px;
+	 height: 3px;
+	 background: white;
+	 display: inline-block;
+	 margin-left: -8px;
+}
+ .stick:nth-child(n) {
+	 transform: rotate(30deg);
+	 -ms-transform: rotate(30deg);
+	 -webkit-transform: rotate(30deg);
+	/* IE 9 */
+	 -moz-transform: rotate(30deg);
+	/* Safari and Chrome */
+	 -webkit-animation: fall 2s infinite;
+	 -moz-animation: fall 2s infinite;
+}
+ .stick:nth-child(2n) {
+	 transform: rotate(-30deg);
+	 -ms-transform: rotate(-30deg);
+	 -webkit-transform: rotate(-30deg);
+	/* IE 9 */
+	 -moz-transform: rotate(-30deg);
+	/* Safari and Chrome */
+	 -webkit-animation: rise 2s infinite;
+	 -moz-animation: rise 2s infinite;
+}
+ @-webkit-keyframes rise {
+	 50% {
+		 transform: rotate(30deg);
+		 -ms-transform: rotate(30deg);
+		 -webkit-transform: rotate(30deg);
+		/* IE 9 */
+		 -moz-transform: rotate(30deg);
+	}
+}
+ @-moz-keyframes rise {
+	 50% {
+		 transform: rotate(30deg);
+		 -ms-transform: rotate(30deg);
+		 -webkit-transform: rotate(30deg);
+		/* IE 9 */
+		 -moz-transform: rotate(30deg);
+	}
+}
+ @-o-keyframes rise {
+	 50% {
+		 transform: rotate(30deg);
+		 -ms-transform: rotate(30deg);
+		 -webkit-transform: rotate(30deg);
+		/* IE 9 */
+		 -moz-transform: rotate(30deg);
+	}
+	 @keyframes rise {
+		 50% {
+			 transform: rotate(30deg);
+			 -ms-transform: rotate(30deg);
+			 -webkit-transform: rotate(30deg);
+			/* IE 9 */
+			 -moz-transform: rotate(30deg);
+		}
+	}
+}
+ @-webkit-keyframes fall {
+	 50% {
+		 transform: rotate(-30deg);
+		 -ms-transform: rotate(-30deg);
+		 -webkit-transform: rotate(-30deg);
+		/* IE 9 */
+		 -moz-transform: rotate(30deg);
+	}
+}
+ @-moz-keyframes fall {
+	 50% {
+		 transform: rotate(-30deg);
+		 -ms-transform: rotate(-30deg);
+		 -webkit-transform: rotate(-30deg);
+		/* IE 9 */
+		 -moz-transform: rotate(-30deg);
+	}
+}
+ @-o-keyframes fall {
+	 50% {
+		 transform: rotate(-30deg);
+		 -ms-transform: rotate(-30deg);
+		 -webkit-transform: rotate(-30deg);
+		/* IE 9 */
+		 -moz-transform: rotate(30deg);
+	}
+	 @keyframes fall {
+		 50% {
+			 transform: rotate(-30deg);
+			 -ms-transform: rotate(-30deg);
+			 -webkit-transform: rotate(-30deg);
+			/* IE 9 */
+			 -moz-transform: rotate(30deg);
+		}
+	}
+}
+ @-webkit-keyframes fade {
+	 50% {
+		 opacity: 0.5;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+ @-moz-keyframes fade {
+	 50% {
+		 opacity: 0.5;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+ @-o-keyframes fade {
+	 50% {
+		 opacity: 0.5;
+	}
+	 100% {
+		 opacity: 1;
+	}
+	
+}
+ 
